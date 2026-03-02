@@ -36,5 +36,5 @@ def start_dns_server():
                 # Handle connection errors or timeouts
                 print(f"[ERROR] Failed to reach external DNS: {e}")
 
-if __name__ == "__main__":
+if _name_ == "_main_":
     start_dns_server()
